@@ -322,7 +322,7 @@ public function millyBonusSex():void
 		output("\n\n<i>“Oohh, yes,”</i> you moan, looking down at her with lidded eyes. <i>“That’s a good girl...”</i>");
 		output("\n\nIt quickly becomes apparent that Milly is a very fast learner, as she employs your own tactic against you to great effect, giving you an orgasm that has your eyes rolling in your head. The two of you lose track of time trading orgasms with your hands, capping off the wild, unrestrained experience by 69ing each other to a massive, body-shaking orgasm.");
 		if(pc.isSquirter()) output(" You both squirt all over each other, unable to hold yourself back in the face of such sheer, unrelenting pleasure and an able tongue.");
-		else output("Milly squirts all over your chin, unable to hold herself back in the face of such sheer, unrelenting pleasure and your able tongue.");
+		else output(" Milly squirts all over your chin, unable to hold herself back in the face of such sheer, unrelenting pleasure and your able tongue.");
 		output("\n\n<i>“Ooohhhh my god,”</i> Milly moans, wrapping an arm around you once you’re both the right way up. <i>“I have </i>never<i> fucked like that. Ever. I’ve never even been with another girl.”</i>");
 		output("\n\n<i>“Glad to help,”</i> you say, giving her a quick peck on the cheek. Honestly, the sight of her lying on her back, chest heaving and sweat-slick caramel skin has you wanting to go all over again. Not to mention that first taste of her quivering pussy was utterly divine.");
 		output("\n\n<i>“Well, I’m probably too exhausted to fuck more right now,”</i> she moans, gingerly sitting upright before tilting her head and looking at you from the side. <i>“But if you wanted to, say, ride my face...”</i>");

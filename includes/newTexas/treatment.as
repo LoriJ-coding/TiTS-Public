@@ -247,7 +247,7 @@ public function treatmentHourProcs(totalHours:int, effect:StorageClass):void
 		if(startHours < 34 && treatedHours >= 34)
 		{
 			AddLogEvent("You idly wonder if you should try and squeeze some gym equipment onto your ship - or make a stop back at the New Texan gym. Working out sounds almost... fun, like something you’d do to blow off steam, only without the whining you’d expect from a horned-up faux cow.\n\nYeah. That’d be nice. Maybe you could even get a faux cow and a muzzle (to keep him quiet), then bench press the little bitch, dropping his dick into your mouth with each rep. A reward for both of you. You’d know when you’ve had enough when he’s had enough.", "passive", treatmentHourPrint(34, startHours));
-			if(pc.PQ() >= 70) ExtendLogEvent(" Mmm... if only you were that strong! You have so much work to do!");
+			if(pc.PQ() < 70) ExtendLogEvent(" Mmm... if only you were that strong! You have so much work to do!");
 			ExtendLogEvent(ParseText(" Oooh, and you could do squats onto a cow-girl’s face. You would know you’d dropped low enough when your [pc.vagOrAss] hit tongue.\n\nMaking up your mind, you decide to give the gym a try at your earliest convenience."));
 		}
 		
@@ -367,7 +367,7 @@ public function treatmentHourProcs(totalHours:int, effect:StorageClass):void
 			// Cooches!
 			else if(pc.hasVagina())
 			{
-				AddLogEvent(ParseText("You find yourself just kind of idly rubbing at [pc.oneClit] whenever you have a spare moment. At first, you’d stop yourself and blush, but more and more, you don’t see the logic in stopping. Your clit is there. It’s hard and wants touched. So you touch it. What’s the big deal? You aren’t masturbating, just keeping yourself ready is all. Why, everyone should be pleased that you’re keeping yourself so sexually ready all the time. Your lucky "), "passive", treatmentHourPrint(44, startHours));
+				AddLogEvent(ParseText("You find yourself just kind of idly rubbing at [pc.oneClit] whenever you have a spare moment. At first, you’d stop yourself and blush, but more and more, you don’t see the logic in stopping. Your clit is there. It’s hard and wants to be touched. So you touch it. What’s the big deal? You aren’t masturbating, just keeping yourself ready is all. Why, everyone should be pleased that you’re keeping yourself so sexually ready all the time. Your lucky "), "passive", treatmentHourPrint(44, startHours));
 				if(pc.vaginalVirgin) ExtendLogEvent("first");
 				else ExtendLogEvent("next");
 				ExtendLogEvent(" partner will be the one to reap the rewards of slippery-sweet sex, after all.\n\nYou don’t even really get distracted by it that much, really. The arousal burns like a pleasant heat in the back of your brain, spiking whenever your digits probe a particularly sensitive bundle of nerves, leaving the rest of your mind to do whatever mundane work it needs to do. You could probably file your taxes while a cute little faux-cow boy-toy kneels ");
@@ -401,7 +401,7 @@ public function treatmentHourProcs(totalHours:int, effect:StorageClass):void
 		// 23
 		if(startHours < 46 && treatedHours >= 46)
 		{
-			AddLogEvent("Momentarily bored, you try out a ‘moo.’ It doesn’t do much for you, not on its own. You suppose you aren’t going to be the type for submissive, idle moos. Maybe in the throes of passion you could slip one in edgewise, an unsubtle declaration that you’ve gone over the edge. At any other time? Fuck that. You’re going to be the one to make other cow-girls moo. You’ll be the one makes them beg to lick your boots, watching them submissively extend their tongues in between their plaintive lowing.", "passive", treatmentHourPrint(46, startHours));
+			AddLogEvent("Momentarily bored, you try out a ‘moo.’ It doesn’t do much for you, not on its own. You suppose you aren’t going to be the type for submissive, idle moos. Maybe in the throes of passion you could slip one in edgewise, an unsubtle declaration that you’ve gone over the edge. At any other time? Fuck that. You’re going to be the one to make other cow-girls moo. You’ll be the one who makes them beg to lick your boots, watching them submissively extend their tongues in between their plaintive lowing.", "passive", treatmentHourPrint(46, startHours));
 			pc.lust(4);
 		}
 		
